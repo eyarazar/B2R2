@@ -15,6 +15,7 @@ The implementation of the algorithm is detailed in  B2R2.py
 
 If you refer to the method or the paper, please cite them as:
 
+|----------|
 | <div style="background-color: #f0f0f0; padding: 10px;">
   E. Azar, S. Mulleti and Y. C. Eldar, "Residual Recovery Algorithm for Modulo Sampling," ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Singapore, Singapore, 2022, pp. 5722-5726, doi: 10.1109/ICASSP43922.2022.9747881.
 </div> |
