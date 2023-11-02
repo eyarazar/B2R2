@@ -1,10 +1,8 @@
 # B2R2-modulo-sampling
-An algorithm for reconstruction bandlimited signal from its modulo samples, based on the paper:
+This program implements the B2R2 algorithm [1] - a new method for recovering unfolded samples of a bandlimited input from its modulo samples. 
 
-E. Azar, S. Mulleti and Y.C. Eldar
+Basic usage: main()
 
-"**Residual Recovery Algorithm for Modulo Sampling**".
-
- ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Singapore, Singapore, 2022.
-
+# References
+1. Eyar Azar, Satish Mulleti, Yonina Eldar (ICASSP 2021) - Residual Recovery Algorithm for Modulo Sampling.
 
