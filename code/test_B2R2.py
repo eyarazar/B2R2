@@ -8,6 +8,7 @@ from B2R2 import reconstruction_method
 
 
 def generate_BL_signal(num_of_coeff, Length, rho,n):
+    # This function generates a BL signal using sum of sincs (SoS).
     coeff = (np.random.rand(num_of_coeff)-0.5)*2 #Uniform coefficients in [-1,1]
     x_n = np.zeros(Length)
     for k in range(num_of_coeff):
@@ -63,7 +64,6 @@ def plot_FT(X_FT, w, rho, beta):
 ####################################
 ############ Parameters ############
 ####################################
-signal_ft_name = "Sos"          # Sum of Sincs
 L = 2 ** 10                     # number of samples
 w = np.linspace(0, 2 * pi, L)   # frequency
 n = np.arange(-L / 2, L / 2)    # time
@@ -77,7 +77,7 @@ scale = 100
 ####################################
 ######## Generating the Model ######
 ####################################
-x_n, X_ft, Energy, Liphscitz_c = generate_BL_signal(coeff_num, L, rho, n)
+x_n, X_ft, Energy, Liphscitz_c = generate_BL_signal(coeff_num, L, rho, n) 
 # Modulo samples
 x_lambda = ((np.real(x_n) + Lambda) % (2 * Lambda)) - Lambda
 X_ft_lambda = np.fft.fft(np.fft.ifftshift(x_lambda))    # FFT modulo
