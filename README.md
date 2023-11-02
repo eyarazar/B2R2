@@ -7,8 +7,7 @@ E. Azar, S. Mulleti and Y.C. Eldar
 
 ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Singapore.
 
-A code example for evaluating B2R2 can be found in the script test_B2R2.py.
-The implementation of the algorithm is detailed in  B2R2.py
+To evaluate B2R2, you can use the provided code example in the `test_B2R2.py` script. The implementation of the algorithm can be found in the script `B2R2.py`.
 
 
 # Citation
