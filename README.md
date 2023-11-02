@@ -1,8 +1,18 @@
 # B2R2-modulo-sampling
-This program implements the B2R2 algorithm [1] - a new method for recovering unfolded samples of a bandlimited input from its modulo samples. 
+This repository contains Python implemtation for B2R2 (Beyond Bandwith Residual Recovery) -  a new method for recovering unfolded samples of a bandlimited input from its modulo samples. Based on the paper:
 
-Basic usage: main()
+E. Azar, S. Mulleti and Y.C. Eldar
 
-# References
-1. Eyar Azar, Satish Mulleti, Yonina Eldar (ICASSP 2021) - Residual Recovery Algorithm for Modulo Sampling.
+**"Residual Recovery Algorithm for Modulo Sampling".**
 
+ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Singapore.
+
+A code example for evaluating B2R2 can be found in the script test_B2R2.py.
+The implementation of the algorithm is detailed in  B2R2.py
+
+
+# Citation
+
+If you refer to the method or the paper, please cite them as:
+
+E. Azar, S. Mulleti and Y. C. Eldar, "Residual Recovery Algorithm for Modulo Sampling," ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Singapore, Singapore, 2022, pp. 5722-5726.
